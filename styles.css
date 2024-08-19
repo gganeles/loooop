@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Impact', sans-serif;
+    background-color: #181818;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero {
+    text-align: center;
+    padding:120px;
+    background-image: url('Group 7cropped.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
+.hero .logo {
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+.hero h1 {
+    font-size: 140px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.cta-button {
+    background-color: #EBEA60;
+    color: #181818;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+.download-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #181818;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.download-section .logo {
+    width: 100px;
+    margin-bottom: 20px;
+    height: 350px;
+
+}
+
+.download-section h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 70px;
+
+
+}
+
+.download-section .highlight {
+    color: #EBEA60;
+}
+
+.store-buttons {
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 55px;
+
+}
+
+.store-buttons .store-link {
+    margin: 0 20px;
+}
+
+.store-buttons .store-link img {
+    width: 250px;
+}
+
+.qr-code {
+    margin-top: 20px;
+}
+
+.qr-code img {
+    width: 350px;
+}
+
+.qr-code p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
